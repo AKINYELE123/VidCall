@@ -7,6 +7,7 @@ import contacts from "./assets/data/contacts.json"
 
 import ContactScreen from './src/screens/ContactScreen';
 import CallingScreen from './src/screens/CallingScreen';
+import IncomingCallScreen from './src/screens/IncomingCallScreen';
 
 
 const App = () => {
@@ -14,7 +15,7 @@ const App = () => {
   return (
     <>
       <StatusBar barStyle={'light-content'}/>
-      <ContactScreen/>
+      <IncomingCallScreen/>
     </>
   );
 }; 
