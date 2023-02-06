@@ -12,10 +12,10 @@ import CallingScreen from './src/screens/CallingScreen';
 const App = () => {
   
   return (
-    <SafeAreaView >
+    <>
       <StatusBar barStyle={'light-content'}/>
-      <CallingScreen/>
-    </SafeAreaView>
+      <ContactScreen/>
+    </>
   );
 }; 
 
