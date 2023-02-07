@@ -3,6 +3,7 @@ package com.vidcall;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
+import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
 
@@ -45,4 +46,11 @@ public class MainActivity extends ReactActivity {
       return BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
     }
   }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
 }
+}
+
+
+
